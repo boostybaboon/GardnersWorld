@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<X3D>
+  <Scene>
+    <Group>
+      <Viewpoint centerOfRotation='0 -1 0' description='Hello world!' position='0 -1 7'/>
+      <Transform rotation='0 1 0 3'>
+        <Shape>
+          <Sphere/>
+          <Appearance>
+            <Material diffuseColor='0 0.5 1'/>
+            <ImageTexture url='"earth-topo.png"'/>
+          </Appearance>
+        </Shape>
+      </Transform>
+      <Transform translation='0 -2 0'>
+        <Shape>
+          <Text solid='false' string='"Hello" "world!"'>
+            <FontStyle justify='"MIDDLE" "MIDDLE"'/>
+          </Text>
+          <Appearance>
+            <Material diffuseColor='0.1 0.5 1'/>
+          </Appearance>
+        </Shape>
+      </Transform>
+    </Group>
+  </Scene>
+</X3D>
