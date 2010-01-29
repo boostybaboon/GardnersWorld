@@ -1,1 +1,7 @@
- * Here's some text to read.
+Not a particularly sensible project, nor is it likely to get very far.
+
+I hope I'll learn a bit about git, qt, osg, xml, dom and x3d by doing it.
+
+The insensible bit is using a DOM as a document in a 3d program,
+whereas you'd usually parse the dom into your own data structures
+I'd imagine.
